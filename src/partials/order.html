@@ -1,12 +1,23 @@
 <section class="order-section">
   <div class="container order-container">
     <div class="order-img">
-      <img
-        src="./../img/order-img.jpg"
-        alt="ukrainian brand jacket"
-        width="524"
-        height="521"
-      />
+      <picture class="order-picture">
+        <source
+          srcset="./../img/order-img.jpg 1x"
+          alt="ukrainian brand jacket"
+          width="524"
+          height="521"
+          media="(min-width: 1280px)"
+        />
+        <source
+          src="./../img/order-img-tablet.jpg 1x"
+          alt="ukrainian brand jacket"
+          width="638"
+          height="521"
+          media="(min-width: 768px)"
+        />
+        <img src="./../img/order-img-tablet.jpg" alt="teblet" />
+      </picture>
     </div>
     <div class="order-wrap">
       <h2 class="order-title">

@@ -15,27 +15,20 @@
   background-image: url(./../img/Image-desktop-1440px.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: cover; 
+  
 }
 
 .order-title {
-  color: #FCF9F9;
   font-size: 32px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.4;
   letter-spacing: -0.04em;
   text-align: left;
-
 }
 
 .order-title_marked-words {
   color: #ECD979;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.4;
-  letter-spacing: -0.04em;
 }
 
 .order-form {
@@ -45,13 +38,10 @@
   gap: 20px;
   margin: 40px 0;
 
-  color: #FCF9F9;
   font-size: 32px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.4;
   letter-spacing: -0.04em;
-
 }
 
 .input-style {
@@ -63,11 +53,8 @@
   border-radius: 15px;
   border: 1px solid rgba(252, 249, 249, 0.10);
 
-  color: var(--white, #FCF9F9);
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
   letter-spacing: -0.02em;
 
   background-color: transparent;
@@ -76,10 +63,9 @@
 }
 
 .input-style::placeholder {
+  color: rgba(252, 249, 249, 0.50);
+
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
   letter-spacing: -0.08em;
   font-family: 'Manrope', serif;
 }
@@ -109,14 +95,12 @@
   border-radius: 15px;
   border: 1px solid rgba(252, 249, 249, 0.10);
 
-  color: #FCF9F9;
   font-family: 'Manrope', serif;
   font-size: 14px;
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+  color: inherit;
 
   background-color: transparent;
 
@@ -133,6 +117,16 @@
 @media screen and (min-width: 768px) {
   .order-section {
     padding: 100px 0;
+        
+    background-image: url(./../img/ornament-1280px.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+  }
+
+  .order-container {
+    display: flex;
+    flex-direction: column;
+    flex-flow: column-reverse;
   }
 
   .order-section::before {
@@ -164,6 +158,7 @@
   .order-form {
     align-items: start;
     width: 508px;
+    margin-bottom: 100px;
   }
 
   .input-style::placeholder {
@@ -177,6 +172,15 @@
     font-weight: 500;
     letter-spacing: -0.04em;
     text-transform: uppercase;
+  }
+
+  .order-img {
+    display: block;
+    margin-left: auto;
+  }
+
+  .order-picture {
+    flex-shrink: 0;
   }
 }
 
@@ -192,6 +196,7 @@
   .order-container {
     display: flex;
     gap: 50px;
+    flex-flow: row;
   }
 
   .order-section::before {
@@ -200,10 +205,6 @@
     margin-bottom: 150px;
   
     background-image: url(./../img/Image-desktop-1440px.jpg);
-  }
-
-  .order-img {
-    display: block;
   }
 }
 
@@ -224,6 +225,6 @@
     margin-bottom: 150px;
     
     background-image: url(./../img/Image-desktop-1440px.jpg);
-    background-size: cover;
+    background-size: contain;
   }
 }
