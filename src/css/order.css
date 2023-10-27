@@ -1,0 +1,229 @@
+.order-img {
+  display: none;
+}
+
+.order-section {
+  padding: 80px 0;
+}
+
+.order-section::before {
+  content: '';
+  display: block;
+  height: 550px;
+  margin-bottom: 80px;
+  
+  background-image: url(./../img/Image-desktop-1440px.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.order-title {
+  color: #FCF9F9;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: -0.04em;
+  text-align: left;
+
+}
+
+.order-title_marked-words {
+  color: #ECD979;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: -0.04em;
+}
+
+.order-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin: 40px 0;
+
+  color: #FCF9F9;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: -0.04em;
+
+}
+
+.input-style {
+  display: flex;
+  align-items: flex-start;
+  padding: 14px 16px;
+  width: 100%;
+
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.10);
+
+  color: var(--white, #FCF9F9);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.02em;
+
+  background-color: transparent;
+
+  transition: border 250ms ease-in-out;
+}
+
+.input-style::placeholder {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.08em;
+  font-family: 'Manrope', serif;
+}
+
+.input-style:hover, 
+.input-style:active,
+.input-style:focus
+{
+  border: 1px solid rgba(252, 249, 249, 0.60);
+}
+
+.order-textarea {
+  border-radius: 8px;
+  height: 196px;
+
+  resize: none;
+}
+
+.order_send-btn {
+  display: flex;
+  padding: 14px 36px;
+  justify-content: center;
+  align-items: center;
+  width: 145px;
+  height: 49px;
+
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.10);
+
+  color: #FCF9F9;
+  font-family: 'Manrope', serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+
+  background-color: transparent;
+
+  transition: border 250ms ease-in-out;
+}
+
+.order_send-btn:hover,
+.order_send-btn:focus,
+.order_send-btn:active{
+  border: 1px solid #ECD979;
+}
+
+
+@media screen and (min-width: 768px) {
+  .order-section {
+    padding: 100px 0;
+  }
+
+  .order-section::before {
+    content: '';
+    display: block;
+
+    height: 776px;
+    margin-bottom: 100px;
+
+    background-image: url(./../img/Image-desktop-1440px.jpg);
+  }
+
+  .order-title {
+    width: 542px;
+
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 1.31;
+    letter-spacing: -0.03em;
+  }
+
+  .order-title_marked-words {
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 1.31;
+    letter-spacing: -0.03em;
+  }
+
+  .order-form {
+    align-items: start;
+    width: 508px;
+  }
+
+  .input-style::placeholder {
+    color: rgba(252, 249, 249, 0.50); 
+    font-size: 16px;
+    letter-spacing: -0.03em;
+  }
+
+  .order_send-btn {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .order-section {
+    padding: 150px 0;
+
+    background-image: url(./../img/ornament-1280px.png);
+    background-repeat: no-repeat;
+    background-position: left bottom 150px;
+  }
+
+  .order-container {
+    display: flex;
+    gap: 50px;
+  }
+
+  .order-section::before {
+    content: '';
+    display: block;
+    margin-bottom: 150px;
+  
+    background-image: url(./../img/Image-desktop-1440px.jpg);
+  }
+
+  .order-img {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .order-title {
+    width: 666px;
+  }
+
+  .order-section {
+    background-image: url(./../img/ornament.png);
+    background-position: left bottom 150px;
+  }
+
+  .order-section::before {
+    content: '';
+    display: block;
+    height: 776px;
+    margin-bottom: 150px;
+    
+    background-image: url(./../img/Image-desktop-1440px.jpg);
+    background-size: cover;
+  }
+}
