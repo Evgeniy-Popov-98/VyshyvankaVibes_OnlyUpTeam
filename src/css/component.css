@@ -5,7 +5,8 @@ body {
 }
 
 .container {
-  max-width: 335px;
+  max-width: 365px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -24,18 +25,18 @@ body {
 
 @media screen and (min-width: 768px) {
   .container {
-    min-width: 704px;
+    min-width: 734px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .container {
-    min-width: 1080px;
+    min-width: 1110px;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .container {
-    min-width: 1240px;
+    min-width: 1270px;
   }
 }
