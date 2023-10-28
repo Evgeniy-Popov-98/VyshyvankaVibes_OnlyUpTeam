@@ -48,5 +48,9 @@ color: #ECD979;
 
 .footer-bkg-img{
     width: 375px;
-    background-image:url(../img/footer-elements-mobile-1x.png) ;
+}
+.footer-img{
+ padding-right: 0px;
+justify-content: center;
+align-items: center;
 }
