@@ -3,20 +3,31 @@
     <div class="order-img">
       <picture class="order-picture">
         <source
-          srcset="./../img/order-img.jpg 1x"
+          srcset="
+            ./../img/order-img-min.jpg                         1x,
+            ./../img/order-vyshyvanka-desktop1440px-2x-min.jpg 2x
+          "
           alt="ukrainian brand jacket"
           width="524"
           height="521"
           media="(min-width: 1280px)"
         />
         <source
-          src="./../img/order-img-tablet.jpg 1x"
+          srcset="
+            ./../img/order-img-tablet-min.jpg           1x,
+            ./../img/order-vyshyvanka-tablet-2x-min.jpg 2x
+          "
           alt="ukrainian brand jacket"
           width="638"
           height="521"
           media="(min-width: 768px)"
         />
-        <img src="./../img/order-img-tablet.jpg" alt="teblet" />
+        <img
+          src="./../img/order-img-tablet-min.jpg"
+          alt="tablet"
+          width="638"
+          height="521"
+        />
       </picture>
     </div>
     <div class="order-wrap">
@@ -44,8 +55,8 @@
           type="submit"
         ></textarea>
         <button type="submit" class="order_send-btn">
-          send<svg>
-            <use></use>
+          send<svg width="26" height="10">
+            <use href="./../img/icons.svg#icon-arrow"></use>
           </svg>
         </button>
       </form>

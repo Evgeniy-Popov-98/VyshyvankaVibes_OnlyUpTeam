@@ -12,11 +12,17 @@
   height: 550px;
   margin-bottom: 80px;
   
-  background-image: url(./../img/Image-desktop-1440px.jpg);
+  background-image: url(./../img/order-green_vyshyvanka-min.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; 
   
+}
+
+@media (min-resolution: 192dpi) {
+  .order-section::before {
+    background-image: url(./../img/order-green_vyshyvanka-2x-min.jpg);
+  }
 }
 
 .order-title {
@@ -91,6 +97,7 @@
   align-items: center;
   width: 145px;
   height: 49px;
+  gap: 10px;
 
   border-radius: 15px;
   border: 1px solid rgba(252, 249, 249, 0.10);
@@ -102,7 +109,7 @@
   text-transform: uppercase;
   color: inherit;
 
-  background-color: transparent;
+  background-color: transparent; 
 
   transition: border 250ms ease-in-out;
 }
@@ -116,11 +123,18 @@
 
 @media screen and (min-width: 768px) {
   .order-section {
-    padding: 100px 0;
+    padding: 100px 0 180px 0;
         
-    background-image: url(./../img/ornament-1280px.png);
+    background-image: url(./../img/order-ornament-tablet-1x-min.png);
     background-repeat: no-repeat;
-    background-position: left bottom;
+    background-position: left bottom 80px;
+    background-size: auto 484px;
+  }
+
+  @media (min-resolution: 192dpi) {
+    .order-section {
+      background-image: url(./../img/order-ornament-desktop_1440-2x-min.png);
+    }
   }
 
   .order-container {
@@ -130,13 +144,8 @@
   }
 
   .order-section::before {
-    content: '';
-    display: block;
-
     height: 776px;
     margin-bottom: 100px;
-
-    background-image: url(./../img/Image-desktop-1440px.jpg);
   }
 
   .order-title {
@@ -188,9 +197,15 @@
   .order-section {
     padding: 150px 0;
 
-    background-image: url(./../img/ornament-1280px.png);
+    background-image: url(./../img/order-ornament-1280-1x-min.png);
     background-repeat: no-repeat;
     background-position: left bottom 150px;
+  }
+
+  @media (min-resolution: 192dpi) {
+    .order-section {
+      background-image: url(./../img/order-ornament-desktop_1280-2x-min.png);
+    }
   }
 
   .order-container {
@@ -200,11 +215,11 @@
   }
 
   .order-section::before {
-    content: '';
-    display: block;
     margin-bottom: 150px;
-  
-    background-image: url(./../img/Image-desktop-1440px.jpg);
+  }
+
+  .order-form {
+    margin-bottom: 0;
   }
 }
 
@@ -214,17 +229,17 @@
   }
 
   .order-section {
-    background-image: url(./../img/ornament.png);
-    background-position: left bottom 150px;
+    background-image: url(./../img/order-ornament-tablet-1x-min.png);
+  }
+
+  @media (min-resolution: 192dpi) {
+    .order-section {
+      background-image: url(./../img/order-ornament-desktop_1440-2x-min.png);
+    }
   }
 
   .order-section::before {
-    content: '';
-    display: block;
-    height: 776px;
     margin-bottom: 150px;
-    
-    background-image: url(./../img/Image-desktop-1440px.jpg);
     background-size: contain;
   }
 }
