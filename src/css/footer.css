@@ -45,13 +45,8 @@ letter-spacing: -1.32px;
 .color-text{
 color: #ECD979;
 }
-.footer-img{
-padding-right: 0px;
-justify-content: center;
-align-items: center;
-flex-shrink: 0;
-background-image:  url(../img/footer-elements-mobile-1x.jpg);
-}
+
 .footer-bkg-img{
     width: 375px;
+    background-image:url(../img/footer-elements-mobile-1x.png) ;
 }
