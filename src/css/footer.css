@@ -52,6 +52,6 @@ align-items: center;
 flex-shrink: 0;
 background-image:  url(../img/footer-elements-mobile-1x.jpg);
 }
-.footer-bkg{
+.footer-bkg-img{
     width: 375px;
 }
