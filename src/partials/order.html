@@ -1,0 +1,66 @@
+<section class="order-section">
+  <div class="container order-container">
+    <div class="order-img">
+      <picture class="order-picture">
+        <source
+          srcset="
+            ./img/order-img-min.jpg                         1x,
+            ./img/order-vyshyvanka-desktop1440px-2x-min.jpg 2x
+          "
+          alt="ukrainian brand jacket"
+          width="524"
+          height="521"
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="
+            ./img/order-img-tablet-min.jpg           1x,
+            ./img/order-vyshyvanka-tablet-2x-min.jpg 2x
+          "
+          alt="ukrainian brand jacket"
+          width="638"
+          height="521"
+          media="(min-width: 768px)"
+        />
+        <img
+          src="./img/order-img-tablet-min.jpg"
+          alt="tablet"
+          width="638"
+          height="521"
+        />
+      </picture>
+    </div>
+    <div class="order-wrap">
+      <h2 class="order-title">
+        <span class="order-title_marked-words">Your order</span> is our
+        priority: Personalized approach and quality of service
+      </h2>
+      <form class="order-form">
+        <input
+          type="text"
+          class="order-username input-style"
+          placeholder="Enter your full name"
+          pattern="[a-z]{2-15}"
+          required
+        />
+        <input
+          class="order-email input-style"
+          type="email"
+          placeholder="Enter your email"
+          required
+        /><textarea
+          placeholder="Comments"
+          name="comments"
+          class="order-textarea input-style"
+          type="submit"
+        ></textarea>
+        <button type="submit" class="order_send-btn">
+          send
+          <svg width="27" height="22">
+            <use href="./img/icons.svg#icon-arrow"></use>
+          </svg>
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
