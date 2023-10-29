@@ -94,7 +94,9 @@ align-items: center;}
 .title-button:hover,
 .title-button:focus,
 .title-button:active{border-radius: 15px;
-    border: 1px solid var(--yellow, #ECD979);}
+    border: 1px solid var(--yellow, #ECD979);
+    transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .hero-image{
     margin-top:40px ;
     width: 335px;
@@ -204,7 +206,7 @@ align-items: center;}
         font-style: normal;
         font-weight: 400;
         line-height: normal;
-        letter-spacing: 0.03em;}
+        letter-spacing: -0.03em;}
         .small-ima {
         display: block;
             min-width: 139px;
@@ -322,7 +324,7 @@ text-transform: uppercase;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
-        letter-spacing: 0.03em;}
+        letter-spacing: -0.03em;}
 .small-ima{ display: block;
     width: 139px;
     background: url(../img/cofta.jpg),  -2.066px -19.213px / 105.126% 113.938% no-repeat;
@@ -432,7 +434,7 @@ cursor: pointer;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    letter-spacing: 0.04em;}
+    letter-spacing: -0.04em;}
 .small-ima{
         width: 139px;
         height: 171px;
