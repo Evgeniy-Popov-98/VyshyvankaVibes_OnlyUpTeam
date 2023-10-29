@@ -1,1 +1,436 @@
+html
 
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+div{margin: 0;
+  }
+  
+  ul,li{
+    margin: 0;
+    list-style: none;
+  }
+  h1, h2, h3, h4, h5, h6, p {
+margin: 0;
+}
+img{display:block;
+    width: 100%;}
+a{text-decoration: none;}
+body{margin: 0 ;
+   padding: 0;
+    background-color: #1C2225;}
+.container{ 
+    width: 1440px;
+    margin: 0;}
+
+    /*hero*/
+@media screen and (min-width: 320px)
+{.hero{
+    min-width: 320px;
+    display: flex;
+    justify-content: center;
+    padding-top:60px ;
+    padding-bottom: 80px;}
+    }
+@media screen and (min-width: 320px) {
+.container {
+width: 320px;
+padding-left: 20px;
+padding-right: 20px;
+margin: 0;}
+.container-hero{
+flex-direction: column-reverse;
+justify-content: center;
+display: flex;
+align-items: center;}
+.hero-title-parth{display: flex;
+justify-content: center;
+flex-direction: column;}
+.hero-star{display: none;}
+.small-ima{display: none;}
+.hero-title{display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;}
+.hero-text{
+    width: 335px;
+    color: #FCF9F9;
+    font-family: Manrope;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.22; /* 122.727% */
+    letter-spacing: -1.32px;}
+.title-span{color: #ECD979;
+    font-family: Manrope;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.22;
+    letter-spacing: 0.03em;}
+.title-button{
+    margin-top: 20px;
+    display: flex;
+    width: 154px;
+    height: 49px;
+    padding: 14px 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    background-color: #1C2225;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    color: #FCF9F9;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;}
+.title-button:hover,
+.title-button:focus,
+.title-button:active{border-radius: 15px;
+    border: 1px solid var(--yellow, #ECD979);}
+.hero-image{
+    margin-top:40px ;
+    width: 335px;
+    height: 545px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background: url(../img/girl-m.jpg), lightgray 50%;
+}}
+
+    @media screen and (min-width:768px){
+        .hero{min-width: 768px;
+            display: flex;
+        justify-content: center;
+        margin: 0;
+            padding-top:60px;
+            padding-bottom: 80px;
+            padding-left: 32px;
+padding-right: 32px;}}
+@media screen and (min-width:768px){
+.container{
+    width: 768px;
+    padding: 0;
+    margin: 0 auto;}
+.container-hero {
+        display: flex;
+        align-items:center;
+       
+    }
+.hero-title-parth-zero{display: flex;
+    align-items:flex-start;
+    flex-direction: row;
+    position: relative;}
+.hero-title-parth{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+.hero-title{display: flex;
+    justify-content: center;
+    align-items: flex-start;}
+.title-button{
+    margin-left: 143px;
+    width: 168px;
+    padding: 14px 39px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #1C2225;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    color: #FCF9F9;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;}
+.hero-image{
+    min-width: 413px;
+    min-height: 575px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: url(../img/girl-t.jpg) lightgray -59.284px -5.913px / 131.835% 126.432% no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+.hero-text{
+    width: 549px;
+    color: #FCF9F9;
+    font-family: Manrope;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.18; /* 118.519% */
+    letter-spacing: -0.03em}
+.title-span{color: #ECD979;
+    font-family: Manrope;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.18;
+    letter-spacing:0.03em;}
+
+.hero-title-parth-two{display: flex;
+    margin: 0;
+flex-direction: column;
+align-items: center;}
+    .hero-star{ 
+        margin: 0 auto;
+        max-width: 115px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;}
+    .hero-startext
+    {color: rgba(252, 249, 249, 0.40);
+        text-align: center;
+        font-family: Manrope;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.03em;}
+        .small-ima {
+        display: block;
+            min-width: 139px;
+           height: 197px;
+            background-image: url(../img/cofta.jpg);
+            background-repeat: no-repeat;
+            background-position: right bottom;
+            position: absolute;
+            bottom: 0;
+        }}
+          
+    
+    @media screen and (min-width: 1280px){
+        .hero{display: flex;
+        min-width:  1280px;
+        padding-top: 100px; 
+        padding-left: 100px;
+        padding-right: 100px;
+    }}
+@media screen and (min-width: 1280px){
+.container{
+    width:  1280px;
+    padding: 0;
+    margin: 0;}
+.container-hero {
+    justify-content: center;
+    display: flex;
+    align-items:stretch;
+    }
+    .container-hero {
+        display: flex;
+        align-items:center;
+    }
+    .hero-title-parth-zero{display: flex;
+        align-items:flex-start;
+        flex-direction: row;
+        position: relative;}
+.hero-title-parth-one{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+}
+.hero-title-parth{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: row-reverse;
+}
+.hero-title{ display: flex;
+    margin-right: 0;
+    margin-top: 66px;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;}
+.hero-image{
+    margin: 0;
+    margin-right: 40px;
+    min-width: 392px;
+    max-height: 545px;
+    border-radius: 4px;
+    background: url(../img/girl-1440.jpg) -56.27px -5.605px / 131.835% 126.432% ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+.hero-text{
+    min-width: 518px;
+    color: #FCF9F9;
+    font-family: Manrope;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.18; /* 118.519% */
+    letter-spacing: 0.03em;}
+.title-button{
+    margin: 0;
+    margin-top:40px ;
+    display: flex;
+width: 168px;
+padding: 14px 39px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 15px;
+border: 1px solid rgba(252, 249, 249, 0.10);
+color: #FCF9F9;
+font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+}
+.hero-star{   
+    width: 115px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    position: absolute;
+    top: 0;}
+    
+.hero-startext{color: rgba(252, 249, 249, 0.40);
+        text-align: center;
+        font-family: Manrope;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.03em;}
+.small-ima{ display: block;
+    width: 139px;
+    background: url(../img/cofta.jpg),  -2.066px -19.213px / 105.126% 113.938% no-repeat;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    position: absolute;
+    bottom: 0;
+    
+}}
+
+@media screen and (min-width: 1440px)
+{.hero{
+    min-width: 1440px;
+    padding-top: 100px; 
+    padding-left: 100px;
+    padding-right: 100px;
+}}
+@media screen and (min-width: 1440px){.container{
+    width:  1440px;
+    padding: 0;
+    margin: 0;}
+.container-hero{
+justify-content: center;
+display: flex;
+align-items:center;
+}}
+@media screen and (min-width: 1440px){
+.hero-title-parth-zero{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    align-items:center;}
+    .hero-image{
+    margin: 0;
+    width: 392px;
+    height: 545px;
+    border-radius: 4px;
+    background: url(../img/girl-1440.jpg) lightgray -56.27px -5.605px / 131.835% 126.432% ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;}
+.hero-title{ display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;}
+.hero-text{margin-left: 40px;
+    text-align: left;
+    width: 632px;
+    height: 222px;
+    color: #FCF9F9;
+    font-family: Manrope;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.16; /* 115.625% */
+    letter-spacing: 0.03em;}
+.title-span{color: #ECD979;}
+
+.title-button{
+margin-top: 40px;
+display: flex;
+width: 168px;
+padding: 14px 39px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 15px;
+border: 1px solid rgba(252, 249, 249, 0.10);
+background-color: #1C2225;
+color: #FCF9F9;
+font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+cursor: pointer; 
+}
+.icon-btn{width: 26px;
+    height: 10px;
+    transform: rotate(-10deg);
+}
+.hero-title-parth-two {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.hero-star{
+    margin-top: 70px;
+    width: 115px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+   }
+.hero-icon{
+    fill:  #ECD979;
+    }
+    
+.hero-startext{ color: rgba(252, 249, 249, 0.40);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.04em;}
+.small-ima{
+        width: 139px;
+        height: 171px;
+        background: url(../img/cofta.jpg);
+        background-repeat: no-repeat;
+        background-position: right bottom;
+       }}
