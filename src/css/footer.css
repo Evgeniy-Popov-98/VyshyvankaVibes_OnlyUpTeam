@@ -47,10 +47,18 @@ color: #ECD979;
 }
 
 .footer-bkg-img{
-    width: 375px;
+    max-width:375px;
+    background-image: url(../img/footer-elements-mobile-1x.png);
+    background-repeat: no-repeat;
+    background-position: center  top;
+    padding-bottom: 50%;
+    background-color: #1C2225;
+    background-size: cover;
+    
 }
-.footer-img{
+
+/*.footer-img{
  padding-right: 0px;
 justify-content: center;
 align-items: center;
-}
+}*/
