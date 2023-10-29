@@ -29,7 +29,7 @@
   font-size: 32px;
   font-weight: 500;
   line-height: 1.4;
-  letter-spacing: -0.04em;
+  letter-spacing: -0.03em;
   text-align: left;
 }
 
@@ -42,7 +42,7 @@
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  margin: 40px 0;
+  margin: 40px 0 0 0;
 
   font-size: 32px;
   font-weight: 500;
@@ -55,6 +55,7 @@
   align-items: flex-start;
   padding: 14px 16px;
   width: 100%;
+  color: #FCF9F9;
 
   border-radius: 15px;
   border: 1px solid rgba(252, 249, 249, 0.10);
@@ -120,14 +121,13 @@
   border: 1px solid #ECD979;
 }
 
-
 @media screen and (min-width: 768px) {
   .order-section {
     padding: 100px 0 180px 0;
         
     background-image: url(./img/order-ornament-tablet-1x-min.png);
     background-repeat: no-repeat;
-    background-position: left bottom 80px;
+    background-position: left bottom 100px;
     background-size: auto 484px;
   }
 
@@ -199,12 +199,12 @@
 
     background-image: url(./img/order-ornament-1280-1x-min.png);
     background-repeat: no-repeat;
-    background-position: left bottom 150px;
+    background-position: left bottom 160px;
   }
 
   @media (min-resolution: 192dpi) {
     .order-section {
-      background-image: url(./img/order-ornament-desktop_1280-2x-min.png);
+      background-image: url(./../img/order-ornament-desktop_1280-2x-min.png);
     }
   }
 
