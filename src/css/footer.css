@@ -54,13 +54,11 @@ color: #ECD979;
     background-size: cover;
     
 }
-@media screen and (min-resolution: 192dpi) and (min-width: 320px),
-       screen and (min-resolution: 2dppx) and (min-width: 320px),
-       screen and (min-device-pixel-ratio: 2) and (min-width: 320px) {
-        .footer-bkg-img{
-            background-image: url(./img/footer-elements-mobile-@2x.png);
-       }
+@media (min-resolution: 192dpi){
+    .footer-bkg-img{
+        background-image: url(./img/footer-elements-mobile-@2x.png);
     }
+} 
 
 
 /*TABLET*/
