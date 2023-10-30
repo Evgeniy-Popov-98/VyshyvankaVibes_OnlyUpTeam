@@ -102,15 +102,17 @@ color: #ECD979;
         font-size: 54px; 
        }
        .bkg-img{
-        justify-content: center;
-        align-items: center;
         background-image: url(../img/footer-elements-tablet-1x.png);
         background-repeat: no-repeat;
-        background-position: top right;
-        padding-bottom: 0;
+        background-position: top right 45px;
         background-color: #1C2225;
        
     }
+    @media (min-resolution: 192dpi){
+        .bkg-img{
+            background-image: url(./img/footer-elements-tablet-@2x.png);
+        }
+    } 
 }
 
 
