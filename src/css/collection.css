@@ -19,14 +19,13 @@
 }
 
 .collection-list {
-  gap: 20px;
+  gap:40px 20px;
   flex-wrap: wrap;
   display: flex;
   justify-content: center;
 }
 
 .collection-item {
-  width: 100%;
   max-width: 288px;
   display: flex;
   flex-direction: column;
