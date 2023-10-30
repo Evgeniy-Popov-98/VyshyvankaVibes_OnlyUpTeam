@@ -219,8 +219,7 @@ align-items: center;}
             display: block;
                 min-width: 139px;
                 height: 197px;
-                background-image: url(../img/cofta.jpg);
-                background-repeat: no-repeat;
+                background: url(../img/cofta.jpg),  -2.282px -3.431px / 105.126% 103.318% no-repeat; background-repeat: no-repeat;
                 background-position: right bottom;
                 position: absolute;
                 bottom: 0;
@@ -377,7 +376,7 @@ align-items: center;}
   /*hero media screen and (min-width: 1280px) end */
 
     /*hero media screen and (min-width: 1440px)*/
-    
+
 @media screen and (min-width: 1440px)
 {.hero{
  
