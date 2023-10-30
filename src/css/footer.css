@@ -1,6 +1,6 @@
 .footer-list{
     display: flex;
-    column-gap: 25px;
+    gap: 25px;
     row-gap: 40px;
     flex-wrap: wrap;
     justify-content: center;
@@ -8,6 +8,7 @@
     flex-direction: row;
     margin-bottom: 40px;
     }
+    @media (min-width: 320px) and (max-width:767px) {
 .li-class{
     display: block;
     font-size: 14px;
@@ -17,7 +18,9 @@
     text-transform: uppercase;
     width: calc((100% - 25px) /2);
     margin-right: 0;
+    flex-wrap: wrap;
 }      
+}
 .li-class:hover,
 .li-class:focus{
  color: var(--yellow, #ECD979);
@@ -69,17 +72,15 @@ color: #ECD979;
     } 
     .footer-list-text{
         display:flex;
-        gap:25px;
+      
         flex-wrap: nowrap;
         align-items: flex-start;
         margin-bottom: 80px;
+        justify-content: left;
     }
-    .li-class{
-        width: calc((100% - 25px) /);
-    }
+
     .li-class-text{
         display: block;
-        align-items: flex-start;
         width: none;
         font-size: 14px;
         color: #FCF9F9;
