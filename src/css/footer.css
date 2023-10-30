@@ -68,20 +68,19 @@ color: #ECD979;
         display: none;
     } 
     .footer-list-text{
-        display:inline-flex;
+        display:flex;
         gap:25px;
         flex-wrap: nowrap;
         align-items: flex-start;
         margin-bottom: 80px;
     }
     .li-class{
-        display: none;
+        width: calc((100% - 25px) /);
     }
     .li-class-text{
         display: block;
         align-items: flex-start;
         width: none;
-        gap:25px;
         font-size: 14px;
         color: #FCF9F9;
         font-weight: 400;
