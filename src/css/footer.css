@@ -77,7 +77,7 @@
     .conteiner-text{
         width: 521px;
         padding-top: 0;
-        padding-left: auto;
+        padding-left: 32px;
         padding-bottom: 0;
     }
 }
