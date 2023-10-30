@@ -42,7 +42,7 @@ color: #FCF9F9;
 font-size: 44px;
 font-weight: 400;
 line-height: 1.2; /* 122.727% */
-letter-spacing: -0.02em;
+letter-spacing: -0.03em;
 }
 .color-text{
 color: #ECD979;
@@ -72,8 +72,7 @@ color: #ECD979;
     } 
     .footer-list-text{
         display:flex;
-      
-        flex-wrap: nowrap;
+       flex-wrap: nowrap;
         align-items: flex-start;
         margin-bottom: 80px;
         justify-content: left;
@@ -100,6 +99,7 @@ color: #ECD979;
      .main-text{
         width: 521px;
         font-size: 54px; 
+        
        }
        .bkg-img{
         background-image: url(../img/footer-elements-tablet-1x.png);
