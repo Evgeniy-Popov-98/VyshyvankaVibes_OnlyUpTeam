@@ -95,7 +95,7 @@
         border-radius: 4px;
         background-repeat: no-repeat;
         background-position: center center;
-        background: url(../img/girl-m.jpg), lightgray 50%;
+        background: url(../img/girl-m.jpg) lightgray 50%;
     }
   }
 
