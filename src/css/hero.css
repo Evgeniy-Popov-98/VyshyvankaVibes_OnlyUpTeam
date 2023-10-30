@@ -25,7 +25,7 @@
    /*частина с .container кінець */
 
 
-      /*частина с hero-title-parth-one*/
+    /*частина с hero-title-parth-one*/
     .hero-title-parth-one{
         display: flex;
         justify-content: center;
@@ -102,15 +102,14 @@
     /*hero media screen and (min-width: 768px)*/
     @media screen and (min-width:768px){
         .hero{
-            min-width: 768px;
         display: flex;
         justify-content: center;
         margin: 0;
-       }}
+    }}
 @media screen and (min-width:768px){
           /*частина с .container */
 .container{
-    width: 768px;
+    min-width: 768px;
     padding: 0;
     margin: 0 auto;}
 .container-hero {
@@ -118,15 +117,21 @@
         align-items:center;
         flex-direction: column-reverse;
         justify-content: center;
-       
+    
     }
-      /*частина с .container кінець*/
+    /*частина с .container кінець*/
 
         /*частина с .hero-title-parth-zero кінець*/
 .hero-title-parth-zero{display: flex;
     align-items:flex-start;
     flex-direction: row;
     position: relative;}
+    .hero-title-parth-one {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-start;
+    }
 .hero-title-parth{
         display: flex;
         justify-content: center;
@@ -181,10 +186,11 @@
     font-weight: 400;
     line-height: 1.18;
     letter-spacing:-0.03em;}
-  /*частина с .hero-title-parth-zero кінець*/
+/*частина с .hero-title-parth-zero кінець*/
 
     /*частина с .hero-title-parth-two кінець*/
-.hero-title-parth-two{display: flex;
+.hero-title-parth-two{
+    display: flex;
     margin: 0;
 flex-direction: column;
 align-items: center;}
@@ -216,24 +222,22 @@ align-items: center;}
             bottom: 0;
         }
         /*частина с .hero-title-parth-two кінець*/}
-          
       /*hero media screen and (min-width: 768px) end */
 
         /*hero media screen and (min-width: 1280pxpx)*/
     @media screen and (min-width: 1280px){
         .hero{display: flex;
-        min-width:  1280px;
         padding-top: 100px; 
         padding-left: 100px;
         padding-right: 100px;
     }}
 @media screen and (min-width: 1280px){
-
+/*частина с контейнером*/ 
 .container{
-    width:  1280px;
+    min-width: 1280px;
     padding: 0;
     margin: 0;}
-  /*частина с контейнером*/  
+
 .container-hero {
     justify-content: center;
     display: flex;
@@ -364,7 +368,7 @@ align-items: center;}
     /*hero media screen and (min-width: 1440px)*/
 @media screen and (min-width: 1440px)
 {.hero{
-    min-width: 1440px;
+ 
     padding-top: 100px; 
     padding-left: 100px;
     padding-right: 100px;
@@ -372,10 +376,11 @@ align-items: center;}
 @media screen and (min-width: 1440px){
     /*частина с .container */
     .container{
-    width:  1440px;
+        min-width: 1440px;
     padding: 0;
     margin: 0;}
-.container-hero{
+
+    .container-hero{
 justify-content: center;
 display: flex;
 align-items:center;
@@ -472,9 +477,7 @@ align-items: center;}
     align-items: center;
     gap: 16px;
    }
-.hero-icon{
-    fill:  #ECD979;
-    }
+
     
 .hero-startext{ color: rgba(252, 249, 249, 0.40);
     text-align: center;
@@ -490,6 +493,6 @@ align-items: center;}
         background: url(../img/cofta.jpg);
         background-repeat: no-repeat;
         background-position: right bottom;
-       }
-          /*частина с  .hero-title-parth-two  кінець*/}
-  /*hero media screen and (min-width: 1440px)end*/
+    }
+        /*частина с  .hero-title-parth-two  кінець*/}
+/*hero media screen and (min-width: 1440px)end*/
