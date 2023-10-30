@@ -75,8 +75,7 @@
 }
 @media (min-width: 768px){
     .conteiner-text{
-        width: 521px;
-        padding-top: 0;
+       padding-top: 0;
         padding-left: 32px;
         padding-bottom: 0;
     }
@@ -87,13 +86,12 @@ color: #FCF9F9;
 font-size: 44px;
 font-weight: 400;
 line-height: 1.2; /* 122.727% */
-letter-spacing: -1.32px;
+letter-spacing: -0.02em;
 }
 @media (min-width: 768px){
     .main-text{
+     width: 521px;
      font-size: 54px; 
-     line-height:1.18;
-     letter-spacing: -1.62px; 
     }
 }
 
