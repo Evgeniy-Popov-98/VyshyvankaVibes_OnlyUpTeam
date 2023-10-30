@@ -32,9 +32,9 @@
     padding-right: 20px;
 }
 .conteiner-text{
-   
-    padding-bottom: 80px;
-    padding-left: 20px;
+ max-width: 375px;   
+padding-bottom: 80px;
+padding-left: 20px;
 }
 .main-text{
 width: 335px;
@@ -92,6 +92,7 @@ color: #ECD979;
         padding-left: 32px;
     }
     .conteiner-text{
+        min-width:768px ;
         padding-top: 0;
          padding-left: 32px;
          padding-bottom: 0;
@@ -99,6 +100,7 @@ color: #ECD979;
      .main-text{
         width: 521px;
         font-size: 54px; 
+       
         
        }
        .bkg-img{
