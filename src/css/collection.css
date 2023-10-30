@@ -1,6 +1,10 @@
 .collection {
-  padding-top: 96px;
-  padding-bottom: 96px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-image: url(../img/g8.png);
+  background-position-x: left;
+  background-position-y:280px ;
+  background-repeat: no-repeat;
 }
 .collection-title {
   color: #fcf9f9;
@@ -43,15 +47,14 @@
 }
 
 .collection-name {
-  overflow: hidden;
-  color: #fcf9f9;
+  color: #FCF9F9;
   text-overflow: ellipsis;
   font-family: Manrope;
-  font-size: 18px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 500;
-  line-height: 18px; /* 100% */
-  letter-spacing: 0.9px;
+  line-height: 14px; /* 100% */
+  letter-spacing: 0.7px;
   text-transform: uppercase;
   margin-top: 18px;
   margin-bottom: 8px;
@@ -64,4 +67,33 @@
   font-weight: 400;
   line-height: 18px; /* 100% */
   letter-spacing: 0.9px;
+}
+@media screen and (min-width: 768px) {
+  .collection-item {
+    width: 100%;
+    max-width: calc((100% - 20px)/ 2);
+  }
+  .plus-content::after{
+    content: "...";
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .collection-item {
+    width: 100%;
+    max-width: calc((100% - 40px)/ 3);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .collection-item {
+    width: 100%;
+    max-width: calc((100% - 40px)/ 3);
+  }
+}
+
+@media screen and (min-width:768px) {
+  .plus-content span{
+    display: none;
+  }
 }
