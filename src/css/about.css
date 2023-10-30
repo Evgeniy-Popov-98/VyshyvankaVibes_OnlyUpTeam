@@ -1,7 +1,6 @@
 .container {
     max-width: 375px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 80px 20px
 }
 
 .about {
@@ -9,7 +8,6 @@
     background-repeat: no-repeat;
     background-size: auto auto;
     background-position: left 125px bottom 8px;
-    padding-bottom: 80px;
 }
 
 .title-about {
@@ -41,8 +39,7 @@ letter-spacing: -0.04em;
 
     .container {
       max-width: 768px;
-      padding-left: 32px;
-      padding-right: 32px;
+      padding: 100px 32px
     }
 
     .about-img {
@@ -50,34 +47,29 @@ letter-spacing: -0.04em;
     }
 
     .about {
-        padding-bottom: 100px;
         background-position: left 399px bottom 50px;
 }
 }
 
-@media screen and (min-width: 1168px) {
+@media screen and (min-width: 1280px) {
 
     .container {
-      max-width: 1168px;
-      padding-left: 100px;
-      padding-right: 100px;
+      max-width: 1280px;
+      padding: 150px 100px;
     }
 
     .about {
-        padding-bottom: 150px;
         background-position: left 895px bottom 70px;
     }
 
-    .about-wrap {
+    .about-container {
         display: flex;
+        align-items: center;
+        gap: 50px;
     }
 
     .text-about {
         max-width: 436px;
     }
 
-    .about-img {
-        width: 594px;
-        height: 545px;
-    }
 }
