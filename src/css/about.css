@@ -5,12 +5,13 @@
 }
 
 .about {
-    min-height: 1037px;
     background-image: url(../img/about-background.png);
     background-repeat: no-repeat;
-    background-size: 458px 408px;
+    background-size: auto auto;
     background-position: left 125px bottom 8px;
+    padding-bottom: 80px;
 }
+
 .title-about {
     color: #FCF9F9;
 font-size: 32px;
@@ -34,13 +35,14 @@ letter-spacing: -0.04em;
 
 .about-img {
     margin-top: 30px;
-   
 }
 
 @media screen and (min-width: 768px) {
 
     .container {
       max-width: 768px;
+      padding-left: 32px;
+      padding-right: 32px;
     }
 
     .about-img {
@@ -48,8 +50,34 @@ letter-spacing: -0.04em;
     }
 
     .about {
-        min-height: 1037px;
-        background-size: 544px 484px;
+        padding-bottom: 100px;
         background-position: left 399px bottom 50px;
 }
+}
+
+@media screen and (min-width: 1168px) {
+
+    .container {
+      max-width: 1168px;
+      padding-left: 100px;
+      padding-right: 100px;
+    }
+
+    .about {
+        padding-bottom: 150px;
+        background-position: left 895px bottom 70px;
+    }
+
+    .about-wrap {
+        display: flex;
+    }
+
+    .text-about {
+        max-width: 436px;
+    }
+
+    .about-img {
+        width: 594px;
+        height: 545px;
+    }
 }
