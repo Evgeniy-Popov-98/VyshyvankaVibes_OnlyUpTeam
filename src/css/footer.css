@@ -6,6 +6,21 @@
     justify-content: center;
     align-items: left;
     flex-direction: row;
+    margin-bottom: 40px;
+}
+@media (min-width: 768px) {
+    .footer-list{
+        display: none;
+    }
+}
+    @media (min-width: 768px) {  
+    .footer-list-text{
+        display:inline-flex;
+        gap:25px;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        margin-bottom: 80px;
+    }
 }
 .li-class{
     display: block;
@@ -17,6 +32,25 @@
     width: calc((100% - 25px) /2);
     margin-right: 0;
 }
+@media (min-width: 768px) {
+    .li-class{
+     display: none;
+    }
+}
+@media (min-width: 768px){
+    .li-class-text{
+        display: block;
+        align-items: flex-start;
+        width: none;
+        gap:25px;
+        font-size: 14px;
+        color: #FCF9F9;
+        font-weight: 400;
+        line-height: 1.2; /* 128.571% */
+        text-transform: uppercase;
+        
+    }
+}      
 .li-class:hover,
 .li-class:focus{
  color: var(--yellow, #ECD979);
@@ -27,12 +61,25 @@
     padding-left: 20px;
     padding-right: 20px;
 }
-
+@media (min-width: 768px){
+    .footer-container{
+        width:768px;
+        padding-left: 32px;
+        
+    }
+}
 .conteiner-text{
     width: 335px;
-    padding-top: 40px;
     padding-bottom: 80px;
     padding-left: 20px;
+}
+@media (min-width: 768px){
+    .conteiner-text{
+        width: 521px;
+        padding-top: 0;
+        padding-left: auto;
+        padding-bottom: 0;
+    }
 }
 
 .main-text{
@@ -42,6 +89,14 @@ font-weight: 400;
 line-height: 1.2; /* 122.727% */
 letter-spacing: -1.32px;
 }
+@media (min-width: 768px){
+    .main-text{
+     font-size: 54px; 
+     line-height:1.18;
+     letter-spacing: -1.62px; 
+    }
+}
+
 .color-text{
 color: #ECD979;
 }
@@ -60,7 +115,7 @@ color: #ECD979;
        screen and (min-resolution: 2dppx) and (min-width: 320px),
        screen and (min-device-pixel-ratio: 2) and (min-width: 320px) {
         .footer-bkg-img{
-            background-image: url("./img/footer-elements-mobile-@2x.png");
+            background-image: url(./img/footer-elements-mobile-@2x.png);
        }
     }
 
