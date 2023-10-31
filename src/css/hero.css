@@ -91,11 +91,7 @@
   /*hero media screen and (min-width: 320px) end */
 
     /*hero media screen and (min-width: 768px)*/
-    @media screen and (min-width:768px){
-        .hero{
-        display: flex;
-        justify-content: center;
-    }}
+  
 @media screen and (min-width:768px){
           /*частина с .container */
 .container-hero {
