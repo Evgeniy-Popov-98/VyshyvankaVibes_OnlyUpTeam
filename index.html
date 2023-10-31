@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
 	<meta charset="UTF-8" />
 	<link rel="icon" type="image/svg+xml" href="/OnlyUp/assets/logo-3a1f6045.svg" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,20 +12,103 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
 	
-  <script type="module" crossorigin src="/OnlyUp/assets/index-aeac330d.js"></script>
-  <link rel="stylesheet" href="/OnlyUp/assets/index-b7b3d2cf.css">
+  <script type="module" crossorigin src="/OnlyUp/assets/index-ca0ee277.js"></script>
+  <link rel="stylesheet" href="/OnlyUp/assets/index-1f2007d5.css">
 </head>
 
 <body>
 	<header>
-		
-	</header>
+		<div class="container header-container">
+	<nav class="header-nav">
+		<a class="header-logo-link" href="index.html">
+			<img class="header-logo" src="/OnlyUp/assets/logo-3a1f6045.svg" alt="logo" width="44" height="39" />
+		</a>
+		<ul class="header-list">
+			<li class="header-items"><a class="header-links" href="">about us</a></li>
+			<li class="header-items">
+				<a class="header-links" href="">our collection </a>
+			</li>
+			<li class="header-items">
+				<a class="header-links" href="">customer order</a>
+			</li>
+			<li class="header-items">
+				<a class="header-links" href="">testimonials</a>
+			</li>
+		</ul>
+	</nav>
+	<div class="header-address-wrap">
+		<address class="header-address">
+			<a class="address-link" href="tel:+380684439426">+380 (68) 443-94-26</a>
+		</address>
 
-	<main>
-		
-		
-		
-		<section class="order-section">
+		<ul class="header-icon-list">
+			<li class="header-icon-items">
+				<a class="header-icon-links" href="https://www.facebook.com/goITclub/" target="_blank"
+					rel="no-opener no-referrer">
+					<svg class="header-icon" width="28" height="28">
+						<use href="/OnlyUp/assets/icons-c9ecf68c.svg#icon-facebook"></use>
+					</svg>
+				</a>
+			</li>
+			<li class="header-icon-items">
+				<a class="header-icon-links" href="https://www.instagram.com/goitclub/" target="_blank"
+					rel="no-opener no-referrer">
+					<svg class="header-icon" width="28" height="28">
+						<use href="/OnlyUp/assets/icons-c9ecf68c.svg#icon-instagram"></use>
+					</svg>
+				</a>
+			</li>
+			<li class="header-icon-items">
+				<a class="header-icon-links" href="https://www.youtube.com/c/GoIT" target="_blank"
+					rel="no-opener no-referrer">
+					<svg class="header-icon" width="28" height="28">
+						<use href="/OnlyUp/assets/icons-c9ecf68c.svg#icon-youtube"></use>
+					</svg>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<button type="button" class="menu-open-button" id="toggleButton">
+		<svg class="open-button-icon" width="36" height="24">
+			<use href="/OnlyUp/assets/icons-c9ecf68c.svg#icon-nav"></use>
+		</svg>
+	</button>
+</div>
+<!-- Mobile menu -->
+<div class="mobile-menu">
+	<div class="mobile-container">
+		<address class="mobile-menu-address">
+			<a class="mobile-address-link" href="tel:+380684439426">+380 (68) 443-94-26</a>
+		</address>
+		<button class="close-button" type="button" id="closeButton">
+			<svg class="close-button-icon" width="36" height="36">
+				<use href="/OnlyUp/assets/icons-c9ecf68c.svg#icon-close"></use>
+			</svg>
+		</button>
+	</div>
+	<nav class="mobile-menu-nav">
+		<ul class="mobile-menu-list">
+			<li class="mobile-menu-items">
+				<a class="mobile-menu-links" href="">about us</a>
+			</li>
+			<li class="mobile-menu-items">
+				<a class="mobile-menu-links" href="">our collection </a>
+			</li>
+			<li class="mobile-menu-items">
+				<a class="mobile-menu-links" href="">customer order</a>
+			</li>
+			<li class="mobile-menu-items">
+				<a class="mobile-menu-links" href="">testimonials</a>
+			</li>
+		</ul>
+	</nav>
+</div>
+	</header>
+    <main>
+      
+      
+      
+      <section class="order-section">
 	<div class="container order-container">
 		<div class="order-img">
 			<picture class="order-picture">
@@ -52,14 +134,14 @@
 				<button type="submit" class="order_send-btn">
 					send
 					<svg width="27" height="22">
-						<use href="/OnlyUp/assets/icons-fbb0b492.svg#icon-arrow"></use>
+						<use href="/OnlyUp/assets/icons-c9ecf68c.svg#icon-arrow"></use>
 					</svg>
 				</button>
 			</form>
 		</div>
 	</div>
 </section>
-		<section class="testimonials">
+      <section class="testimonials">
 	<div class="container testimonials-container">
 		<h2 class="testimonials-title">Testimonials</h2>
 		<ul class="testimonials-list">
@@ -90,13 +172,12 @@
 		</ul>
 	</div>
 </section>
-		
-	</main>
-	<footer>
-		
-	</footer>
-
-	
-</body>
-
+      
+    </main>
+<body>
+    <footer>
+      
+    </footer>
+    
+     </body>
 </html>
