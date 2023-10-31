@@ -5,8 +5,7 @@
     /*hero media screen and (min-width: 320px)*/
 @media screen and (min-width: 320px)
 {.hero{
-    display: flex;
-
+    display:flex;
     margin: 0 auto;
     }
     }
