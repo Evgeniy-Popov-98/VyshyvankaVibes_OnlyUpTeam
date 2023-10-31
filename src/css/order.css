@@ -3,7 +3,7 @@
 }
 
 .order-section {
-  padding: 80px 0;
+  padding-bottom: 80px;
 }
 
 .order-section::before {
@@ -121,7 +121,7 @@
 
 @media screen and (min-width: 768px) {
   .order-section {
-    padding: 100px 0 180px 0;
+    padding-bottom: 180px;
 
     background-image: url(../img/orger/order-ornament-tablet-1x-min.png);
     background-repeat: no-repeat;
@@ -193,7 +193,7 @@
 
 @media screen and (min-width: 1280px) {
   .order-section {
-    padding: 150px 0;
+    padding-bottom: 150px;
 
     background-image: url(../img/orger/order-ornament-1280-1x-min.png);
     background-repeat: no-repeat;
