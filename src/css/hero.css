@@ -1,5 +1,21 @@
+.hero-star {
+  display: none;
+}
+.small-ima {
+  display: none;
+}
 
+.hero-text {
+  font-size: 44px;
+  line-height: 1.22;
+  letter-spacing: -0.03em;
+  font-style: normal;
+  font-weight: 400;
+}
 
+.title-span {
+  color: #ecd979;
+}
 
 
     /*hero media screen and (min-width: 320px)*/
@@ -62,11 +78,31 @@
     line-height: normal;
     letter-spacing: -0.04em;
     text-transform: uppercase;}
+
+.title-button {
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  padding: 14px 36px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: transparent;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  color: #fcf9f9;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+}
 .title-button:hover,
 .title-button:focus,
-.title-button:active{border-radius: 15px;
-    border: 1px solid var(--yellow, #ECD979);
-    transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.title-button:active {
+  border-radius: 15px;
+  border: 1px solid var(--yellow, #ecd979);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
     .hero-image{
         margin-top:40px ;
@@ -92,43 +128,16 @@
   
     justify-content: space-between;}
 
-    .hero-title-parth-one {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: flex-start;
-       
-    }
-    .hero-title {
-        display: flex;
-        align-items: flex-start;
-    }
-.title-button{
-    margin-left: 150px;
-    margin-top: 40px;
-    width: 168px;
-    padding: 14px 39px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    background-color: #1C2225;
-    border-radius: 15px;
-    border: 1px solid rgba(252, 249, 249, 0.10);
-    color: #FCF9F9;
-    font-family: Manrope;
+  .hero-title-parth-one {
+    padding-top: 26px;
+    max-width: 549px;
+  }
+
+  .title-button {
+    margin: 40px 0 0 141px;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
     letter-spacing: -0.04em;
-    text-transform: uppercase;}
-.hero-image{
-        width: 413px;
-        height: 575px;
-        flex-shrink: 0;
-        border-radius: 4px;
-        
-    }
+  }
 
 .hero-text{
     width: 549px;
@@ -226,25 +235,16 @@ align-items: center;}
     border-radius: 4px;
   }
 
-
-  .hero-text{
-    padding: 0;
-    width: 518px;
-    color: #FCF9F9;
-    font-family: Manrope;
+  .hero-text {
     font-size: 54px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.18; /* 118.519% */
-    letter-spacing: -0.03em;}
+    line-height: 1.19;
+    letter-spacing: -0.03em;
+  }
+  /*частина с .hero-title-parth-zero кінець*/
 
-    .title-span{color: var(--white, #ECD979);
-    font-family: Manrope;
-    font-size: 54px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 64px;
-    letter-spacing: -0.03em;}
+  .hero-title-parth-two {
+    max-width: 115px;
+  }
 
     .title-button{
     margin: 0;
@@ -393,19 +393,63 @@ align-items: center;}
     flex-direction: column;
     align-items: center;
     gap: 16px;
-   }
-
-    
-.hero-startext{ color: rgba(252, 249, 249, 0.40);
+  }
+  .hero-startext {
+    color: rgba(252, 249, 249, 0.4);
     text-align: center;
-    font-family: Manrope;
-    font-size: 16px;
+    line-height: normal;
+    letter-spacing: -0.03em;
+  }
+
+  .small-ima {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 139px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hero-title-parth-one {
+    max-width: 100%;
+    padding-top: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 40px;
+  }
+
+  .hero-title {
+    padding-top: 94px;
+    width: 518px;
+  }
+
+  .hero-image img {
+    margin: 0;
+    width: 392px;
+    height: 545px;
+  }
+
+  .hero-star {
+    padding-top: 14px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-title {
+    padding-top: 66px;
+    width: 620px;
+  }
+
+  .hero-text {
+    font-size: 64px;
+    line-height: 1.16;
+    letter-spacing: -0.03em;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
-    letter-spacing: -0.04em;}
-    .small-ima {
-        margin: 0;
-    }
-        /*частина с  .hero-title-parth-two  кінець*/}
-/*hero media screen and (min-width: 1440px)end*/
+  }
+
+  .hero-star {
+    padding-top: 66px;
+  }
+}
