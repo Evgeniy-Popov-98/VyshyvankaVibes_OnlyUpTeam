@@ -407,5 +407,8 @@ align-items: center;}
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.04em;}
+    .small-ima {
+        margin: 0;
+    }
         /*частина с  .hero-title-parth-two  кінець*/}
 /*hero media screen and (min-width: 1440px)end*/
