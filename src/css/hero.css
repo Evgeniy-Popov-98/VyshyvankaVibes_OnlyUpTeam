@@ -368,9 +368,9 @@ align-items:center;
   
 
     .hero-title{ display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: center;}
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;}
 .hero-text{margin-left: 40px;
     text-align: left;
     min-width: 632px;
