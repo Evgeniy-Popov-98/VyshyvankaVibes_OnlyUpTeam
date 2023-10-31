@@ -220,7 +220,8 @@ align-items: center;}
 
     /*частина с hero-title-parth-one */ 
 
-    .hero-title-parth-zero{display: flex;
+    .hero-title-parth-zero{
+      display: flex;
         align-items:flex-start;
         flex-direction: row;
         position: relative;
@@ -239,8 +240,8 @@ align-items: center;}
     flex-direction: row-reverse;
 }
 
-.hero-title{ display: flex;
-    margin-right: 0;
+.hero-title{ 
+  display: flex;
     margin-top: 66px;
 flex-direction: column;
 justify-content: flex-start;
@@ -359,7 +360,7 @@ align-items:center;
         align-items: flex-start;
     }
 
-        .hero-image{
+      .hero-image{
         margin: 0;
         width: 392px;
         height: 545px;
