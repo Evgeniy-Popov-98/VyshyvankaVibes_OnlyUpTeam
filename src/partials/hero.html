@@ -1,6 +1,6 @@
 
       <section class="hero">
-        <div class="container ">
+        <div class="container containe-hero ">
           <div class="hero-title-parth-zero">
             
             <div class="hero-title-parth-one">
@@ -14,19 +14,29 @@
                       <use href="./img/hero-icon/symbol-defs.svg#icon-vibes1"></use>
                     </svg>
                   </button>
-                </div>
-              <div class="hero-image"> <img src="./img/girl-1440.jpg"
-                srcset="./img/girl-m.jpg 1x  , ./img/girl-t.jpg  2x" alt="girl picture"></div>
-            </div>
-            <div class="hero-title-parth-two">
+                  <picture class="hero-image">
+                    <source srcset="./img/girl-1440.jpg 1x  , ./img/girl-1440.jpg   2x" 
+                    media="(min-width:1280px)"/>
+                    
+                    <source srcset="./img/girl-t.jpg 1x, ./img/girl-t.jpg   2x" 
+                    media="(min-width:768px)"/>
+              
+                    <img src="./img/girl-m.jpg" alt="girl"
+                    >
+                  </picture>
+                  <div class="hero-title-parth-two">
                 
-              <div class="hero-star">
-                 <img src="./img/Star 10.jpg">
-                  <p class="hero-startext">all embroidery is made by hand</p>
+                  
                 </div>
-                <div class="small-ima"><img src="./img/cofta.jpg" alt="image with a map "></div>
-            
-              </div>
+             <div class=".hero-title-parth-two ">
+                <div class="hero-star">
+                  <img src="./img/Star 10.jpg">
+                   <p class="hero-startext">all embroidery is made by hand</p>
+                 </div>
+                 <div class="small-ima"><img src="./img/cofta.jpg" alt="image with a map "></div>
+             
+               </div>
+          
           </div>
         </div>
       </section>
