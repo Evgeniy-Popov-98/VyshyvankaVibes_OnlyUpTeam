@@ -47,19 +47,18 @@ letter-spacing: -0.03em;
 .color-text{
 color: #ECD979;
 }
-.footer-bkg-img{
+.bkg-img{
     max-width:375px;
     background-image: url(../img/footer-elements-mobile-1x.png);
     background-repeat: no-repeat;
-    background-position: center  top;
-    padding-bottom: 50%;
+    background-position: center  bottom 45%;
+    padding-bottom: 60%;
     background-color: #1C2225;
-    background-size: cover;
     
 }
 @media (min-resolution: 192dpi){
     .footer-bkg-img{
-        background-image: url(./img/footer-elements-mobile-@2x.png);
+        background-image: url(../img/footer-elements-mobile-@2x.png);
     }
 } 
 
@@ -100,19 +99,19 @@ color: #ECD979;
      .main-text{
         width: 521px;
         font-size: 54px; 
-       
-        
-       }
+    }
        .bkg-img{
         background-image: url(../img/footer-elements-tablet-1x.png);
         background-repeat: no-repeat;
         background-position: top right 45px;
         background-color: #1C2225;
-       
-    }
+        padding-bottom: 0;
+        padding-right: 100%;
+        height: 401px;
+       }
     @media (min-resolution: 192dpi){
         .bkg-img{
-            background-image: url(./img/footer-elements-tablet-@2x.png);
+            background-image: url(../img/footer-elements-tablet-@2x.png);
         }
     } 
 }
