@@ -1,75 +1,110 @@
 .container {
-    max-width: 375px;
-    padding: 80px 20px
+  padding-bottom: 80px;
 }
 
 .about {
-    background-image: url(../img/about-background.png);
-    background-repeat: no-repeat;
-    background-size: auto auto;
-    background-position: left 125px bottom 8px;
+  background-image: url(../img/about/about-background-mob.png);
+  background-repeat: no-repeat;
+  background-position: right bottom 18px;
 }
 
 .title-about {
-    color: #FCF9F9;
-font-size: 32px;
-font-weight: 500;
-line-height: 1.38;
-letter-spacing: -0.03em;
-margin-bottom: 40px;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.38;
+  letter-spacing: -0.03em;
+  margin-bottom: 40px;
 }
 
 .text-about {
-    color: rgba(252, 249, 249, 0.40);
-    font-size: 14px;
-font-weight: 400;
-line-height: normal;
-letter-spacing: -0.04em;
+  color: rgba(252, 249, 249, 0.4);
+  font-size: 14px;
+  line-height: normal;
+  letter-spacing: -0.04em;
 }
 
 .text-about {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.text-about:last-child {
+  padding-bottom: 0;
 }
 
 .about-img {
-    margin-top: 30px;
+  margin-top: 50px;
+  width: 335px;
+  height: 499px;
 }
 
 @media screen and (min-width: 768px) {
+  .container {
+    padding-bottom: 100px;
+  }
 
-    .container {
-      max-width: 768px;
-      padding: 100px 32px
-    }
+  .about {
+    background-image: url(../img/about/about-background-tab.png);
+    background-repeat: no-repeat;
+    background-position: right bottom 50px;
+  }
 
-    .about-img {
-        margin-top: 20px;
-    }
+  .title-about {
+    font-size: 44px;
+    line-height: 1.45;
+    letter-spacing: -0.03em;
+    margin-bottom: 40px;
+  }
 
-    .about {
-        background-position: left 399px bottom 50px;
-}
+  .text-about {
+    color: rgba(252, 249, 249, 0.4);
+    letter-spacing: -0.04em;
+    font-size: 16px;
+    line-height: normal;
+  }
+
+  .about-img {
+    margin-top: 40px;
+    width: 704px;
+    height: 545px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
+  .container {
+    padding-bottom: 150px;
+  }
 
-    .container {
-      max-width: 1280px;
-      padding: 150px 100px;
-    }
+  .about {
+    background-image: url(../img/about/about-background-1280.png);
+    background-repeat: no-repeat;
+    background-position: right bottom 70px;
+  }
 
-    .about {
-        background-position: left 895px bottom 70px;
-    }
+  .about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+  }
 
-    .about-container {
-        display: flex;
-        align-items: center;
-        gap: 50px;
-    }
+  .text-about {
+    max-width: 436px;
+  }
 
-    .text-about {
-        max-width: 436px;
-    }
+  .about-img {
+    margin-top: 0;
+    width: 594px;
+    height: 545px;
+  }
+}
 
+@media screen and (min-width: 1440px) {
+  .text-about {
+    max-width: 481px;
+  }
+
+  .about-img {
+    width: 709px;
+    height: 545px;
+  }
 }
