@@ -1,7 +1,7 @@
 .header-container {
   display: flex;
   align-items: center;
-  padding-top: 24px;
+  padding-top: 20px;
 }
 
 .header-nav {
@@ -129,8 +129,7 @@
   display: flex;
   flex-direction: row-reverse;
   text-align: right;
-  margin-top: auto;
-  margin-bottom: auto;
+  margin-top: 20vh;
 }
 
 .mobile-menu-items:not(:last-child) {
@@ -190,7 +189,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .header-logo {
+  .header-logo-link {
     margin-right: 60px;
   }
 
