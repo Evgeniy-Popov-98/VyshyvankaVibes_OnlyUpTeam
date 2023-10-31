@@ -376,9 +376,7 @@ align-items: center;}
     height: 10px;
     transform: rotate(-10deg);
 }
-   /*частина с  hero-title-parth-zero  i .hero-title-parth-one кінець */
 
-      /*частина с  .hero-title-parth-two  */
 .hero-title-parth-two {
     display: flex;
     margin: 0;
