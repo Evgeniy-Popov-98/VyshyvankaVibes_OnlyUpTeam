@@ -336,13 +336,6 @@ align-items: center;}
 
     /*hero media screen and (min-width: 1440px)*/
 
-@media screen and (min-width: 1440px)
-{.hero{
- 
-    padding-top: 100px; 
-    padding-left: 100px;
-    padding-right: 100px;
-}}
 @media screen and (min-width: 1440px){
 
 
@@ -369,7 +362,7 @@ align-items:center;
         align-items: flex-start;
     }
 
-        .hero-image{
+      .hero-image{
         margin: 0;
         width: 392px;
         height: 545px;
