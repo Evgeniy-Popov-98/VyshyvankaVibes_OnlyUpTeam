@@ -4,12 +4,12 @@
 
     /*hero media screen and (min-width: 320px)*/
 @media screen and (min-width: 320px)
-{.hero{
+{
+    .hero{
     display: flex;
-
     margin: 0 auto;
-    }
-    }
+}}
+    
 @media screen and (min-width: 320px) {
         /*частина с .container*/
 
@@ -92,12 +92,7 @@
   /*hero media screen and (min-width: 320px) end */
 
     /*hero media screen and (min-width: 768px)*/
-    @media screen and (min-width:768px){
-        .hero{
-        display: flex;
-        justify-content: center;
-        margin: 0;
-    }}
+  
 @media screen and (min-width:768px){
           /*частина с .container */
 .container-hero {
@@ -337,13 +332,7 @@ align-items: center;}
 
     /*hero media screen and (min-width: 1440px)*/
 
-@media screen and (min-width: 1440px)
-{.hero{
- 
-    padding-top: 100px; 
-    padding-left: 100px;
-    padding-right: 100px;
-}}
+
 @media screen and (min-width: 1440px){
 
 
