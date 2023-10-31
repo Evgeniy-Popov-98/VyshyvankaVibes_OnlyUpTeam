@@ -3,22 +3,10 @@
 
 
     /*hero media screen and (min-width: 320px)*/
-@media screen and (min-width: 320px)
-{
-    .hero{
-    display: flex;
-    margin: 0 auto;
-}}
+
     
 @media screen and (min-width: 320px) {
-        /*частина с .container*/
 
-    .container-hero{
-    flex-direction: column-reverse;
-    justify-content: center;
-    display: flex;
-    align-items: center;}
-   /*частина с .container кінець */
     /*частина с hero-title-parth-one*/
     .hero-title-parth-one{
         display: flex;
@@ -94,16 +82,6 @@
     /*hero media screen and (min-width: 768px)*/
   
 @media screen and (min-width:768px){
-          /*частина с .container */
-.container-hero {
-        display: flex;
-        align-items:center;
-        flex-direction: column-reverse;
-        justify-content: center;
-       
-    
-    }
-    /*частина с .container кінець*/
 
         /*частина с .hero-title-parth-zero кінець*/
 .hero-title-parth-zero{
@@ -212,16 +190,7 @@
         /*hero media screen and (min-width: 1280pxpx)*/
 
 @media screen and (min-width: 1280px){
-/*частина с контейнером*/ 
 
-
-.container-hero {
-    justify-content: center;
-    align-items:stretch;
-        display: flex;
-        align-items:center;
-    }
-    /* кінець*/
 
     /*частина с hero-title-parth-one */ 
 
@@ -339,11 +308,7 @@ align-items: center;}
 @media screen and (min-width: 1440px){
 
 
-    .container-hero{
-justify-content: center;
-display: flex;
-align-items:center;
-}
+
 /*частина с  hero-title-parth-zero  i .hero-title-parth-one*/
 
     .hero-title-parth-zero{
