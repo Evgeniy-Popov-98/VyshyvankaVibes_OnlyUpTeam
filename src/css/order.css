@@ -123,7 +123,7 @@
   .order-section {
     padding: 100px 0 180px 0;
 
-    background-image: url(./img/orger/order-ornament-tablet-1x-min.png);
+    background-image: url(../img/orger/order-ornament-tablet-1x-min.png);
     background-repeat: no-repeat;
     background-position: left bottom 100px;
     background-size: auto 484px;
@@ -131,7 +131,7 @@
 
   @media (min-resolution: 192dpi) {
     .order-section {
-      background-image: url(./img/orger/order-ornament-desktop_1440-2x-min.png);
+      background-image: url(../img/orger/order-ornament-desktop_1440-2x-min.png);
     }
   }
 
@@ -195,14 +195,14 @@
   .order-section {
     padding: 150px 0;
 
-    background-image: url(./img/orger/order-ornament-1280-1x-min.png);
+    background-image: url(../img/orger/order-ornament-1280-1x-min.png);
     background-repeat: no-repeat;
     background-position: left bottom 160px;
   }
 
   @media (min-resolution: 192dpi) {
     .order-section {
-      background-image: url(./img/orger/order-ornament-desktop_1280-2x-min.png);
+      background-image: url(../img/orger/order-ornament-desktop_1280-2x-min.png);
     }
   }
 
@@ -227,12 +227,12 @@
   }
 
   .order-section {
-    background-image: url(./img/orger/order-ornament-tablet-1x-min.png);
+    background-image: url(../img/orger/order-ornament-tablet-1x-min.png);
   }
 
   @media (min-resolution: 192dpi) {
     .order-section {
-      background-image: url(./img/orger/order-ornament-desktop_1440-2x-min.png);
+      background-image: url(../img/orger/order-ornament-desktop_1440-2x-min.png);
     }
   }
 
