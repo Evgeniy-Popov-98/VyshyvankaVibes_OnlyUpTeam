@@ -129,13 +129,16 @@ color: #ECD979;
     .main-text{
         width: 754px;
         font-size: 64px; 
+        margin-right: 90px;
     }
     .conteiner-text{
         min-width:754px ;
         padding-top: 0;
          padding-left: 100px;
          padding-bottom: 0;
-         margin-bottom: 117px;
+         padding-bottom:40px;
+         margin-bottom: 0;
+     
      }
 
 .footer-list-text{
@@ -159,6 +162,34 @@ color: #ECD979;
         }
     } 
 }
+
+/*DESKTOP 1440*/
+
+@media (min-width: 1440px){
+   
+    .footer-container{
+        width:1440px;
+    }
+     .bkg-img{
+        background-image: url(../img/footer-elements-desktop1440-1x.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-color: #1C2225;
+        padding-bottom: 0;
+        height: 528px;
+       }
+    @media (min-resolution: 192dpi){
+        .bkg-img{
+            background-image: url(../img/footer-elements-desktop1440-@2x.png);
+        }
+    } 
+} 
+
+
+
+
+
+
 
 
 
