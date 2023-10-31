@@ -33,7 +33,7 @@
 }
 .conteiner-text{
  max-width: 375px;   
-padding-bottom: 80px;
+margin-bottom: 80px;
 padding-left: 20px;
 }
 .main-text{
@@ -48,22 +48,24 @@ letter-spacing: -0.03em;
 color: #ECD979;
 }
 .bkg-img{
-    max-width:375px;
+    width:375px;
     background-image: url(../img/footer-elements-mobile-1x.png);
     background-repeat: no-repeat;
-    background-position: center  bottom 45%;
-    padding-bottom: 60%;
+    background-position: bottom center;
+    padding-bottom: 150%;
     background-color: #1C2225;
     
 }
 @media (min-resolution: 192dpi){
-    .footer-bkg-img{
+    .bkg-img{
         background-image: url(../img/footer-elements-mobile-@2x.png);
     }
 } 
 
 
+
 /*TABLET*/
+
 
 @media (min-width: 768px){
     .footer-list{
@@ -103,7 +105,7 @@ color: #ECD979;
        .bkg-img{
         background-image: url(../img/footer-elements-tablet-1x.png);
         background-repeat: no-repeat;
-        background-position: top right 45px;
+        background-position: top right;
         background-color: #1C2225;
         padding-bottom: 0;
         padding-right: 100%;
@@ -112,6 +114,48 @@ color: #ECD979;
     @media (min-resolution: 192dpi){
         .bkg-img{
             background-image: url(../img/footer-elements-tablet-@2x.png);
+        }
+    } 
+}
+
+
+/*DESKTOP 1280*/
+
+@media (min-width: 1280px){
+    .footer-container{
+        width:1280px;
+        padding-left: 100px;
+    }
+    .main-text{
+        width: 754px;
+        font-size: 64px; 
+    }
+    .conteiner-text{
+        min-width:754px ;
+        padding-top: 0;
+         padding-left: 100px;
+         padding-bottom: 0;
+         margin-bottom: 117px;
+     }
+
+.footer-list-text{
+        display:flex;
+       flex-wrap: nowrap;
+        align-items: flex-start;
+        justify-content: left;
+        margin-bottom: 117px;
+    }
+    .bkg-img{
+        background-image: url(../img/footer-elements-desktop1280-1x.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-color: #1C2225;
+        padding-bottom: 0;
+        height: 528px;
+       }
+    @media (min-resolution: 192dpi){
+        .bkg-img{
+            background-image: url(../img/footer-elements-desktop1280-@2x.png);
         }
     } 
 }
