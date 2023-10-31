@@ -6,7 +6,8 @@
 @media screen and (min-width: 320px)
 {.hero{
     display: flex;
-    justify-content: center;
+
+    margin: 0 auto;
     }
     }
 @media screen and (min-width: 320px) {
@@ -18,8 +19,6 @@
     display: flex;
     align-items: center;}
    /*частина с .container кінець */
-
-
     /*частина с hero-title-parth-one*/
     .hero-title-parth-one{
         display: flex;
@@ -101,7 +100,6 @@
     }}
 @media screen and (min-width:768px){
           /*частина с .container */
-
 .container-hero {
         display: flex;
         align-items:center;
@@ -117,7 +115,8 @@
     display: flex;
     align-items:flex-start;
     flex-direction: row;
-    position: relative;}
+    position: relative;
+    justify-content: space-between;}
 
     .hero-title-parth-one {
         display: flex;
@@ -229,7 +228,8 @@ align-items: center;}
     .hero-title-parth-zero{display: flex;
         align-items:flex-start;
         flex-direction: row;
-        position: relative;}
+        position: relative;
+    justify-content: space-between;}
 
         .hero-title-parth-one{
     display: flex;
@@ -253,7 +253,6 @@ align-items: center;}
 
 
     .hero-image{
-    margin: 0;
     margin-right: 40px;
     min-width: 392px;
     border-radius: 4px;
