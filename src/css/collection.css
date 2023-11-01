@@ -1,8 +1,19 @@
 .collection {
-  background-image: url(../img/g8.png);
+  background-image: url(../img/collection/elements-mob.png);
   background-position-x: left;
-  background-position-y: 280px;
+  background-position-y: 300px;
   background-repeat: no-repeat;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .collection {
+    background-image: url(../img/collection/elements-mob-2x.png);
+    background-position-x: left;
+    background-position-y: 300px;
+    background-repeat: no-repeat;
+  }
 }
 
 .collection-conteiner {
@@ -42,6 +53,7 @@
   line-height: 1;
   letter-spacing: 0.05;
   text-transform: uppercase;
+  margin-bottom: 8px;
 }
 
 .collection-price {
@@ -52,6 +64,20 @@
 }
 
 @media screen and (min-width: 768px) {
+  .collection {
+    background-image: url(../img/collection/elements-tab.png);
+    background-position-y: 250px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .collection {
+      background-image: url(../img/collection/elements-tab-2x.png);
+      background-position-y: 250px;
+    }
+  }
+
   .collection-item {
     max-width: calc((100% - 20px) / 2);
   }
@@ -62,24 +88,48 @@
   .plus-content span {
     display: none;
   }
+
+  .collection-name {
+    font-size: 18px;
+  }
+
+  .collection-price {
+    font-size: 18px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
+  .collection {
+    background-image: url(../img/collection/elements-1280.png);
+    background-position-y: 150px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .collection {
+      background-image: url(../img/collection/elements-1280-2x.png);
+      background-position-y: 150px;
+    }
+  }
+
   .collection-item {
-    width: 100%;
     max-width: calc((100% - 40px) / 3);
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .collection-item {
-    width: 100%;
-    max-width: calc((100% - 40px) / 3);
+  .collection {
+    background-image: url(../img/collection/elements-1440.png);
+    background-position-y: 150px;
   }
-}
 
-@media screen and (min-width: 768px) {
-  .plus-content span {
-    display: none;
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .collection {
+      background-image: url(../img/collection/elements-1440-2x.png);
+      background-position-y: 150px;
+    }
   }
 }
