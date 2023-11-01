@@ -1,1 +1,147 @@
+.hero-star {
+  display: none;
+}
+.small-ima {
+  display: none;
+}
 
+.hero-text {
+  font-size: 44px;
+  line-height: 1.22;
+  letter-spacing: -0.03em;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.title-span {
+  color: #ecd979;
+}
+
+.title-button {
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  padding: 14px 36px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: transparent;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  color: #fcf9f9;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+}
+.title-button:hover,
+.title-button:focus,
+.title-button:active {
+  border-radius: 15px;
+  border: 1px solid var(--yellow, #ecd979);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-image img {
+  margin-top: 40px;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-title-parth-zero {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .hero-title-parth-one {
+    padding-top: 26px;
+    max-width: 549px;
+  }
+
+  .title-button {
+    margin: 40px 0 0 141px;
+    font-size: 16px;
+    letter-spacing: -0.04em;
+  }
+
+  .hero-image img {
+    width: 413px;
+    height: 575px;
+    flex-shrink: 0;
+    border-radius: 4px;
+  }
+
+  .hero-text {
+    font-size: 54px;
+    line-height: 1.19;
+    letter-spacing: -0.03em;
+  }
+  .hero-title-parth-two {
+    max-width: 115px;
+  }
+
+  .hero-star {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  .hero-startext {
+    color: rgba(252, 249, 249, 0.4);
+    text-align: center;
+    line-height: normal;
+    letter-spacing: -0.03em;
+  }
+  .small-ima {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 139px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hero-title-parth-one {
+    max-width: 100%;
+    padding-top: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 40px;
+  }
+
+  .hero-title {
+    padding-top: 94px;
+    width: 518px;
+  }
+
+  .hero-image img {
+    margin: 0;
+    width: 392px;
+    height: 545px;
+  }
+
+  .hero-star {
+    padding-top: 14px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-title {
+    padding-top: 66px;
+    width: 620px;
+  }
+  .hero-text {
+    font-size: 64px;
+    line-height: 1.16;
+    letter-spacing: -0.03em;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .hero-star {
+    padding-top: 66px;
+  }
+}
