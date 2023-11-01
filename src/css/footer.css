@@ -25,6 +25,11 @@
 .li-class:focus{
  color: var(--yellow, #ECD979);
 }
+.footer-link:hover,
+.footer-link:focus{
+    color: var(--yellow, #ECD979);
+}
+
 .footer-container{
     width: 375px;
     padding-top: 40px;
@@ -49,7 +54,7 @@ color: #ECD979;
 }
 .bkg-img{
     width:375px;
-    background-image: url(../img/footer-elements-mobile-1x.png);
+    background-image: url(../i);
     background-repeat: no-repeat;
     background-position: bottom center;
     padding-bottom: 60%;
