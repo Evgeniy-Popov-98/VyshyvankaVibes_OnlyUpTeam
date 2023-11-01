@@ -10,6 +10,7 @@
   (min-resolution: 2dppx) {
   .collection {
     background-image: url(../img/collection/elements-mob-2x.png);
+    background-size: 20%;
     background-position-x: left;
     background-position-y: 300px;
     background-repeat: no-repeat;
@@ -74,8 +75,13 @@
     (min-resolution: 2dppx) {
     .collection {
       background-image: url(../img/collection/elements-tab-2x.png);
+      background-size: 14%;
       background-position-y: 200px;
     }
+  }
+
+  .collection-conteiner {
+    padding-bottom: 100px;
   }
 
   .collection-item {
@@ -104,11 +110,16 @@
     background-position-y: 150px;
   }
 
+  .collection-conteiner {
+    padding-bottom: 150px;
+  }
+
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .collection {
       background-image: url(../img/collection/elements-1280-2x.png);
+      background-size: 12%;
       background-position-y: 150px;
     }
   }
@@ -129,6 +140,7 @@
     (min-resolution: 2dppx) {
     .collection {
       background-image: url(../img/collection/elements-1440-2x.png);
+      background-size: 12%;
       background-position-y: 150px;
     }
   }
