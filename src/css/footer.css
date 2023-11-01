@@ -54,7 +54,7 @@ color: #ECD979;
 }
 .bkg-img{
     width:375px;
-    background-image: url(../i);
+    background-image: url(../img/);
     background-repeat: no-repeat;
     background-position: bottom center;
     padding-bottom: 60%;
