@@ -23,9 +23,6 @@
         flex-direction: column;
         align-items: center;}
 
-    .hero-star{display: none;}
-    .small-ima{display: none;}
-
     .hero-title{display: flex;
     justify-content: center;
     flex-direction: column;
