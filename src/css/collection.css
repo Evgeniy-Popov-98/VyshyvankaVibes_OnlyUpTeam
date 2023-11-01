@@ -1,1 +1,149 @@
+.collection {
+  background-image: url(../img/collection/elements-mob.png);
+  background-size: 72px;
+  background-position-x: left;
+  background-position-y: 300px;
+  background-repeat: no-repeat;
+}
 
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .collection {
+    background-image: url(../img/collection/elements-mob-2x.png);
+    background-position-x: left;
+    background-position-y: 300px;
+    background-repeat: no-repeat;
+  }
+}
+
+.collection-conteiner {
+  padding-bottom: 80px;
+}
+
+.collection-title {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.38;
+  letter-spacing: -0.03em;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.collection-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.collection-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+}
+
+.collection-img {
+  border-radius: 4px;
+}
+
+.collection-name {
+  text-overflow: ellipsis;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.05;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.collection-price {
+  color: rgba(252, 249, 249, 0.4);
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.05;
+}
+
+@media screen and (min-width: 768px) {
+  .collection {
+    background-image: url(../img/collection/elements-tab.png);
+    background-size: 114px;
+    background-position-y: 200px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .collection {
+      background-image: url(../img/collection/elements-tab-2x.png);
+      background-size: 14%;
+      background-position-y: 200px;
+    }
+  }
+
+  .collection-conteiner {
+    padding-bottom: 100px;
+  }
+
+  .collection-item {
+    max-width: calc((100% - 20px) / 2);
+  }
+  .plus-content::after {
+    content: '...';
+  }
+
+  .plus-content span {
+    display: none;
+  }
+
+  .collection-name {
+    font-size: 18px;
+  }
+
+  .collection-price {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .collection {
+    background-image: url(../img/collection/elements-1280.png);
+    background-size: 169px;
+    background-position-y: 150px;
+  }
+
+  .collection-conteiner {
+    padding-bottom: 150px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .collection {
+      background-image: url(../img/collection/elements-1280-2x.png);
+      background-size: 12%;
+      background-position-y: 150px;
+    }
+  }
+
+  .collection-item {
+    max-width: calc((100% - 40px) / 3);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .collection {
+    background-image: url(../img/collection/elements-1440.png);
+    background-position-y: 150px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .collection {
+      background-image: url(../img/collection/elements-1440-2x.png);
+      background-size: 12%;
+      background-position-y: 150px;
+    }
+  }
+}
