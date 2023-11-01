@@ -1,7 +1,10 @@
+.bkg-img {
+  border-top: 1px solid rgba(252, 249, 249, 0.1);
+}
+
 .footer-container {
   padding-top: 40px;
   padding-bottom: 292px;
-  border-top: 1px solid rgba(252, 249, 249, 0.1);
 }
 
 .footer-list {
@@ -92,9 +95,6 @@
 /*DESKTOP 1280*/
 
 @media (min-width: 1280px) {
-  .footer-container {
-  }
-
   .main-text {
     width: 754px;
     font-size: 64px;
