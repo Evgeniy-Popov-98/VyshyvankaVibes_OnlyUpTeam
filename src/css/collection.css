@@ -66,7 +66,7 @@
 @media screen and (min-width: 768px) {
   .collection {
     background-image: url(../img/collection/elements-tab.png);
-    background-position-y: 250px;
+    background-position-y: 200px;
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -74,7 +74,7 @@
     (min-resolution: 2dppx) {
     .collection {
       background-image: url(../img/collection/elements-tab-2x.png);
-      background-position-y: 250px;
+      background-position-y: 200px;
     }
   }
 
