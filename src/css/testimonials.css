@@ -1,15 +1,15 @@
-.testimonials-container {
+.testimonials {
   padding-bottom: 80px;
 }
 
 @media screen and (min-width: 768px) {
-  .testimonials-container {
+  .testimonials {
     padding-bottom: 100px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .testimonials-container {
+  .testimonials {
     padding-bottom: 150px;
   }
 }
