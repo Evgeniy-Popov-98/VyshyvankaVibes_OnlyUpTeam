@@ -101,12 +101,22 @@
     align-items: center;
     gap: 16px;
   }
+
+  .star-img {
+    transition: transform 500s linear;
+  }
+
+  .hero-container:hover .star-img {
+    transform: rotate(100turn);
+  }
+
   .hero-startext {
     color: rgba(252, 249, 249, 0.4);
     text-align: center;
     line-height: normal;
     letter-spacing: -0.03em;
   }
+
   .small-ima {
     display: block;
     position: absolute;
