@@ -1,4 +1,4 @@
-.about-container {
+.about {
   padding-bottom: 80px;
 }
 
@@ -7,6 +7,10 @@
   background-size: 250px;
   background-repeat: no-repeat;
   background-position: right bottom 18px;
+}
+
+.about-wrap {
+  margin-bottom: 50px;
 }
 
 .title-about {
@@ -33,13 +37,13 @@
 }
 
 .about-img {
-  margin-top: 50px;
   width: 335px;
   height: 499px;
 }
 
 @media screen and (min-width: 768px) {
-  .about-container {
+
+  .about {
     padding-bottom: 100px;
   }
 
@@ -48,6 +52,10 @@
     background-size: 369px;
     background-repeat: no-repeat;
     background-position: right bottom 50px;
+  }
+
+  .about-wrap {
+    margin-bottom: 40px;
   }
 
   .title-about {
@@ -65,14 +73,14 @@
   }
 
   .about-img {
-    margin-top: 40px;
     width: 704px;
     height: 545px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .about-container {
+
+  .about {
     padding-bottom: 150px;
   }
 
@@ -88,6 +96,10 @@
     align-items: center;
     justify-content: space-between;
     gap: 50px;
+  }
+
+  .about-wrap {
+    margin-bottom: 0;
   }
 
   .text-about {
