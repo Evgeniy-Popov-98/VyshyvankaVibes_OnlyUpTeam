@@ -54,7 +54,7 @@
   z-index:1;
 }
 .collection-img:hover{
-  transform: scale(2);
+  transform: scale(1.5);
   position: relative;
   z-index:2;
 }
