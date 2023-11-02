@@ -56,6 +56,7 @@
 }
 
 @media screen and (min-width: 768px) {
+  
   .hero {
     padding-top: 68px;
     padding-bottom: 100px;
@@ -117,6 +118,7 @@
 }
 
 @media screen and (min-width: 1280px) {
+
   .hero{
     padding-top: 100px;
     padding-bottom: 150px;
@@ -144,6 +146,7 @@
   .hero-star {
     padding-top: 14px;
   }
+  
 }
 
 @media screen and (min-width: 1440px) {
