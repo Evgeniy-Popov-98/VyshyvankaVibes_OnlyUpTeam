@@ -41,6 +41,7 @@
   border-radius: 15px;
   border: 1px solid rgba(252, 249, 249, 0.1);
   background-color: rgba(252, 249, 249, 0.1);
+  outline: transparent;
   padding: 8px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -75,6 +76,9 @@
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+  transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 500ms cubic-bezier(0.4, 0, 0.2, 1),
+    pointer-events 500s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -225,6 +229,7 @@
     text-transform: uppercase;
     border-radius: 15px;
     border: 1px solid rgba(252, 249, 249, 0.1);
+    outline: transparent;
     padding: 14px 28px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
