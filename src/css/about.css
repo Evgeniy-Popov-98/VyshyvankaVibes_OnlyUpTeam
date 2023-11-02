@@ -4,6 +4,7 @@
 
 .about {
   background-image: url(../img/about/about-background-mob.png);
+  background-size: 250px;
   background-repeat: no-repeat;
   background-position: right bottom 18px;
 }
@@ -41,12 +42,14 @@
 }
 
 @media screen and (min-width: 768px) {
+
   .about {
     padding-bottom: 100px;
   }
 
   .about {
     background-image: url(../img/about/about-background-tab.png);
+    background-size: 369px;
     background-repeat: no-repeat;
     background-position: right bottom 50px;
   }
@@ -76,12 +79,14 @@
 }
 
 @media screen and (min-width: 1280px) {
+
   .about {
     padding-bottom: 150px;
   }
 
   .about {
     background-image: url(../img/about/about-background-1280.png);
+    background-size: 385px;
     background-repeat: no-repeat;
     background-position: right bottom 70px;
   }

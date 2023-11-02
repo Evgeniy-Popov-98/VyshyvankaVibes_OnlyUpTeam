@@ -1,0 +1,128 @@
+.bkg-img {
+  border-top: 1px solid rgba(252, 249, 249, 0.1);
+}
+
+.footer-container {
+  padding-top: 40px;
+  padding-bottom: 292px;
+}
+
+.footer-list {
+  max-width: 280px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 25px;
+  margin-bottom: 40px;
+}
+
+.footer-link {
+  font-size: 14px;
+  line-height: 1.29;
+  text-transform: uppercase;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--yellow, #ecd979);
+}
+
+.main-text {
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+}
+
+.color-text {
+  color: #ecd979;
+}
+
+.bkg-img {
+  background-image: url(../img/footer/footer-elements-mobile-1x.png);
+  background-size: 375px;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+@media (min-resolution: 192dpi) {
+  .bkg-img {
+    background-image: url(../img/footer/footer-elements-mobile-@2x.png);
+  }
+}
+
+/*TABLET*/
+
+@media screen and (min-width: 768px) {
+  .footer-container {
+    padding-bottom: 40px;
+  }
+
+  .footer-list {
+    max-width: 500px;
+    flex-wrap: nowrap;
+    margin-bottom: 80px;
+  }
+
+  .li-class:nth-child(2) {
+    order: 2;
+  }
+
+  .li-class:nth-child(2n) {
+    order: 3;
+  }
+
+  .main-text {
+    width: 521px;
+    font-size: 54px;
+    line-height: 1.19;
+    letter-spacing: -0.03em;
+  }
+
+  .bkg-img {
+    background-image: url(../img/footer/footer-elements-tablet-1x.png);
+    background-size: 174px;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+
+  @media (min-resolution: 192dpi) {
+    .bkg-img {
+      background-image: url(../img/footer/footer-elements-tablet-@2x.png);
+    }
+  }
+}
+
+/*DESKTOP 1280*/
+
+@media (min-width: 1280px) {
+  .main-text {
+    width: 754px;
+    font-size: 64px;
+    line-height: 1.16;
+  }
+
+  .bkg-img {
+    background-image: url(../img/footer/footer-elements-desktop1280-1x.png);
+    background-size: 336px;
+  }
+
+  @media (min-resolution: 192dpi) {
+    .bkg-img {
+      background-image: url(../img/footer/footer-elements-desktop1280-@2x.png);
+    }
+  }
+}
+
+/*DESKTOP 1440*/
+
+@media (min-width: 1440px) {
+  .bkg-img {
+    background-image: url(../img/footer/footer-elements-desktop1440-1x.png);
+    background-size: 450px;
+  }
+  @media (min-resolution: 192dpi) {
+    .bkg-img {
+      background-image: url(../img/footer/footer-elements-desktop1280-@2x.png);
+    }
+  }
+}
