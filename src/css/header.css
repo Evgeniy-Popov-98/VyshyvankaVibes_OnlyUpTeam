@@ -1,11 +1,11 @@
-.header {
+/* .header {
   width: 100%;
   background-color: #1c2225;
   position: fixed;
   z-index: 500;
   left: 50%;
   transform: translate(-50%);
-}
+} */
 
 .header-container {
   display: flex;
@@ -203,6 +203,15 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .header {
+    width: 100%;
+    background-color: #1c2225;
+    position: fixed;
+    z-index: 500;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
   .header-logo-link {
     margin-right: 60px;
   }

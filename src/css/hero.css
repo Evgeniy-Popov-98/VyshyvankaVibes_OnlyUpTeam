@@ -102,12 +102,19 @@
     gap: 16px;
   }
 
-  .star-img {
-    transition: transform 500s linear;
+  .hero-container:hover .star-img {
+    animation-name: rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
   }
 
-  .hero-container:hover .star-img {
-    transform: rotate(100turn);
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
   }
 
   .hero-startext {
