@@ -38,7 +38,7 @@
 }
 
 .bkg-img {
-  background-image: url(../img/footer-elements-mobile-1x.png);
+  background-image: url(../img/footer/footer-elements-mobile-1x.png);
   background-size: 375px;
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -46,7 +46,7 @@
 
 @media (min-resolution: 192dpi) {
   .bkg-img {
-    background-image: url(../img/footer-elements-mobile-@2x.png);
+    background-image: url(../img/footer/footer-elements-mobile-@2x.png);
   }
 }
 
@@ -79,7 +79,7 @@
   }
 
   .bkg-img {
-    background-image: url(../img/footer-elements-tablet-1x.png);
+    background-image: url(../img/footer/footer-elements-tablet-1x.png);
     background-size: 174px;
     background-repeat: no-repeat;
     background-position: right;
@@ -87,7 +87,7 @@
 
   @media (min-resolution: 192dpi) {
     .bkg-img {
-      background-image: url(../img/footer-elements-tablet-@2x.png);
+      background-image: url(../img/footer/footer-elements-tablet-@2x.png);
     }
   }
 }
@@ -102,13 +102,13 @@
   }
 
   .bkg-img {
-    background-image: url(../img/footer-elements-desktop1280-1x.png);
+    background-image: url(../img/footer/footer-elements-desktop1280-1x.png);
     background-size: 336px;
   }
 
   @media (min-resolution: 192dpi) {
     .bkg-img {
-      background-image: url(../img/footer-elements-desktop1280-@2x.png);
+      background-image: url(../img/footer/footer-elements-desktop1280-@2x.png);
     }
   }
 }
@@ -117,12 +117,12 @@
 
 @media (min-width: 1440px) {
   .bkg-img {
-    background-image: url(../img/footer-elements-desktop1440-1x.png);
+    background-image: url(../img/footer/footer-elements-desktop1440-1x.png);
     background-size: 450px;
   }
   @media (min-resolution: 192dpi) {
     .bkg-img {
-      background-image: url(../img/footer-elements-desktop1440-@2x.png);
+      background-image: url(../img/footer/footer-elements-desktop1280-@2x.png);
     }
   }
 }
