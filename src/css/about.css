@@ -42,7 +42,6 @@
 }
 
 @media screen and (min-width: 768px) {
-
   .about {
     padding-bottom: 100px;
   }
@@ -79,12 +78,13 @@
 }
 
 @media screen and (min-width: 1280px) {
-
   .about {
     padding-bottom: 150px;
   }
 
   .about {
+    max-width: 1440px;
+    margin: 0 auto;
     background-image: url(../img/about/about-background-1280.png);
     background-size: 385px;
     background-repeat: no-repeat;
