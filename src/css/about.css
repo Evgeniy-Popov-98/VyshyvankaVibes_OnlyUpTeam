@@ -8,7 +8,7 @@
     background-image: url(../img/about-background.png);
     background-repeat: no-repeat;
     background-size: auto auto;
-    background-position: right bottom 2%;
+    background-position: right bottom 18px;
 }
 
 .title-about {
@@ -40,23 +40,27 @@ letter-spacing: -0.04em;
 
     .container {
       max-width: 768px;
-      padding: 100px 32px
     }
 
+    .about {
+        padding: 100px 32px;
+        background-position: right bottom 50px;
+}
     .about-img {
         margin-top: 40px;
     }
 
-    .about {
-        background-position: right bottom 8%;
-}
 }
 
 @media screen and (min-width: 1280px) {
 
     .container {
       max-width: 1280px;
-      padding: 150px 100px;
+    }
+
+    .about {
+        padding: 150px 100px;
+        background-position: right bottom 70px;
     }
 
     .about-container {
