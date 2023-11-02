@@ -117,6 +117,8 @@
 
 @media (min-width: 1440px) {
   .bkg-img {
+    max-width: 1440px;
+    margin: 0 auto;
     background-image: url(../img/footer/footer-elements-desktop1440-1x.png);
     background-size: 450px;
   }

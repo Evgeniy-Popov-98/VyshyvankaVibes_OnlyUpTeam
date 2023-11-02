@@ -80,7 +80,7 @@
 .input-style:hover,
 .input-style:active,
 .input-style:focus {
-    outline: 1px solid rgba(252, 249, 249, 0.6);
+  outline: 1px solid rgba(252, 249, 249, 0.6);
   border: 1px solid rgba(252, 249, 249, 0.6);
 }
 
@@ -229,6 +229,8 @@
   }
 
   .order-section {
+    max-width: 1440px;
+    margin: 0 auto;
     background-image: url(../img/orger/order-ornament-tablet-1x-min.png);
   }
 
