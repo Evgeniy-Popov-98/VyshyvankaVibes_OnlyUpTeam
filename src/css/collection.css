@@ -49,14 +49,16 @@
 }
 .collection-img{
   transform: scale(1);
-  transition: transform 250ms cubic-bezier(0.4,0,0.2,1);
+  transition: transform 400ms cubic-bezier(0.4,0,0.2,1);
   position:relative;
   z-index:1;
 }
 .collection-img:hover{
-  transform: scale(1.5);
+  transform: scale(1.4);
   position: relative;
   z-index:2;
+  box-shadow: 0px 0px 20px 0px #7d7d7d;
+
 }
 
 .collection-name {
