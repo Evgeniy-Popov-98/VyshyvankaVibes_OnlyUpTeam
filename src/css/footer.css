@@ -21,8 +21,8 @@
   text-transform: uppercase;
 }
 
-.li-class:hover,
-.li-class:focus {
+.footer-link:hover,
+.footer-link:focus {
   color: var(--yellow, #ecd979);
 }
 
