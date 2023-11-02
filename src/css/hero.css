@@ -101,12 +101,29 @@
     align-items: center;
     gap: 16px;
   }
+
+  .hero-container:hover .star-img {
+    animation-name: rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
   .hero-startext {
     color: rgba(252, 249, 249, 0.4);
     text-align: center;
     line-height: normal;
     letter-spacing: -0.03em;
   }
+
   .small-ima {
     display: block;
     position: absolute;
